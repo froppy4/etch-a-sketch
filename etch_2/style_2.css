@@ -1,0 +1,25 @@
+
+.square {
+    margin:0;
+    padding:0;
+    border: 1px solid black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.highlighted {
+    background-color: #00A86B;
+}
+
+#grid {
+    margin:0;
+    padding:0;
+    background-color: blue;
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+}

@@ -4,14 +4,23 @@ body{
 }
 
 #grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     gap: 0;
     margin: 0;
     padding: 0;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
 }
 
 .gridsquare {
-    width: 6.25vw;
-    height: 6.25vh;
+    border:1px solid black;
+    width: 30px;
+    height:30px;
 }
+
+.highlighted {
+    background-color: #00A86B;
+}
+/* The slider itself */
